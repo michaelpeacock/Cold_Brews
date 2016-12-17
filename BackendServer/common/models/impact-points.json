@@ -1,0 +1,50 @@
+{
+  "name": "impactPoints",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "impactTime": {
+      "type": "number",
+      "required": true
+    },
+    "latDegrees": {
+      "type": "number",
+      "required": true
+    },
+    "latRadians": {
+      "type": "number",
+      "required": true
+    },
+    "longDegrees": {
+      "type": "number",
+      "required": true
+    },
+    "longRadians": {
+      "type": "number",
+      "required": true
+    },
+    "who1": {
+      "type": "string",
+      "required": true
+    },
+    "who2": {
+      "type": "string",
+      "required": true
+    },
+    "impactName": {
+      "type": "string",
+      "required": true
+    },
+    "zoneExtent": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

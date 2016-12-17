@@ -1,0 +1,33 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "ColdBrews": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017",
+    "database": "ColdBrews",
+    "password": "",
+    "name": "ColdBrews",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "Email": {
+    "name": "Email",
+    "connector": "mail",
+    "defaultForType": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "name@gmail.com",
+          "pass": "pass"
+        }
+      }
+    ]
+  }
+}

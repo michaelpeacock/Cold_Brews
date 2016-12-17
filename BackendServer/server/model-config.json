@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "whale": {
+    "dataSource": "ColdBrews",
+    "public": true
+  },
+  "sealion": {
+    "dataSource": "ColdBrews",
+    "public": true
+  },
+  "ice": {
+    "dataSource": "ColdBrews",
+    "public": true
+  },
+  "oil": {
+    "dataSource": "ColdBrews",
+    "public": true
+  },
+  "impactPoints": {
+    "dataSource": "db",
+    "public": true
+  },
+  "MyEmail": {
+    "dataSource": "Email",
+    "public": true
+  }
+}

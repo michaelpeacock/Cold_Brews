@@ -1,0 +1,62 @@
+{
+  "name": "oil",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "scenarioName": {
+      "type": "string",
+      "required": true
+    },
+    "timeStamp": {
+      "type": "number",
+      "required": true
+    },
+    "latDegrees": {
+      "type": "number",
+      "required": true
+    },
+    "latRadians": {
+      "type": "number",
+      "required": true
+    },
+    "longDegrees": {
+      "type": "number",
+      "required": true
+    },
+    "longRadians": {
+      "type": "number",
+      "required": true
+    },
+    "course": {
+      "type": "number",
+      "required": true
+    },
+    "speed": {
+      "type": "number",
+      "required": true
+    },
+    "radius": {
+      "type": "number",
+      "required": true
+    },
+    "graphicColor": {
+      "type": "string",
+      "required": true
+    },
+    "groupID": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
